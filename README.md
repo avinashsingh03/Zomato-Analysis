@@ -10,3 +10,11 @@ This project analyzes Zomato restaurant reviews and ratings using machine learni
 - Business-focused metric selection
 
 ## Structure
+zomato-analysis/
+├── data/
+│ └── zomato.csv # Raw dataset
+├── notebooks/
+│ └── Zomato_Analysis.ipynb # Main analysis notebook
+├── reports/
+│ └── zomato_report.pdf # Final report (optional)
+└── README.md
