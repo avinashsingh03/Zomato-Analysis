@@ -1,2 +1,12 @@
-# Zomato-Analysis
-Zomato review analysis using ML Model
+# Zomato Review Analysis
+
+This project analyzes Zomato restaurant reviews and ratings using machine learning models to predict ratings and extract business insights.
+
+## Project Highlights
+- Data preprocessing and cleaning
+- Feature engineering
+- Multiple ML models (Random Forest, XGBoost / SVR, etc.)
+- Model evaluation and comparison
+- Business-focused metric selection
+
+## Structure
