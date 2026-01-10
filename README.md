@@ -42,11 +42,12 @@ Live App: https://zomato-rating-predictions.streamlit.app/
 ```
 zomato-analysis/
 ├── data/
-│   └── zomato.csv                     # Raw dataset
+│   └── Restaurant reviews.csv                     # Raw dataset
+│   └── Restaurant names and Metadata.csv          # Raw dataset
 ├── notebooks/
-│   └── Zomato_Analysis.ipynb          # Main analysis notebook
+│   └── Zomato_Restaurant_Rating_Project.ipynb     # Jupyter notebook
 ├── reports/
-│   └── zomato_report.pdf              # Final report (optional)
+│   └── zomato_report.pdf            
 ├── deployment/
 │   ├── app.py                         # Streamlit app
 │   ├── random_forest_model.pkl        # Trained model
