@@ -7,19 +7,19 @@ import numpy as np
 # Load saved objects
 # ----------------------------------------
 
-with open('random_forest_model.pkl', 'rb') as f:
+with open('deployment/random_forest_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('scaler.pkl', 'rb') as f:
+with open('deployment/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with open('feature_columns.pkl', 'rb') as f:
+with open('deployment/feature_columns.pkl', 'rb') as f:
     feature_columns = pickle.load(f)
 
-with open('cuisine_features.pkl', 'rb') as f:
+with open('deployment/cuisine_features.pkl', 'rb') as f:
     cuisine_features = pickle.load(f)
 
-with open('collection_features.pkl', 'rb') as f:
+with open('deployment/collection_features.pkl', 'rb') as f:
     collection_features = pickle.load(f)
 
 # ----------------------------------------
@@ -91,3 +91,4 @@ if st.button("Predict Rating"):
         )
 
         st.success(f"⭐ Predicted Rating: {round(pred, 2)}")
+
