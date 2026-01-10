@@ -39,6 +39,7 @@ Live App: https://zomato-rating-predictions.streamlit.app/
 ---
 
 **Repository Structure**
+```
 zomato-analysis/
 ├── data/
 │   └── zomato.csv                     # Raw dataset
@@ -55,6 +56,7 @@ zomato-analysis/
 │   ├── collection_features.pkl        # Collection encodings
 │   └── requirements.txt               # Dependencies
 └── README.md
+```
 
 ---
 
